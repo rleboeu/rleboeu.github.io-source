@@ -7,6 +7,8 @@ import { HomeComponent } from './components/home/home.component';
 import { GamingComponent } from './components/gaming/gaming.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { ResumeComponent } from './components/resume/resume.component';
+import { BioComponent } from './components/bio/bio.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
     HomeComponent,
     GamingComponent,
     ProjectsComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    ResumeComponent,
+    BioComponent
   ],
   imports: [
     BrowserModule,
